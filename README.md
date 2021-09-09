@@ -17,7 +17,7 @@ Using this package to generate controller, migration, model, route, request, res
 * You can custom your own templates by running `php artisan vendor:publish --tag=code-generator`
 * You can also use our `BaseService` by extending `ThomasDeLuck\CodeGenerator\Services\BaseService` class or create your own
 * List of variables used in filename: 
-- **(XXX)** is equivalent to **.XXX** (extension), 
-- **{YYY}** is equivalent to global config variable **YYY** (defined in `config/generator`)
-- **[ZZZ]** is equivalent to model form variable **ZZZ** (available values: **PLURAL_UPPER**, **PLURAL_LOWER**, **PLURAL_UC**, **PLURAL_STUDLY**, **PLURAL_CAMEL**, **PLURAL_KEBAB**, **PLURAL_SNAKE**, **UPPER**, **LOWER**, **UC**, **STUDLY**, **CAMEL**, **KEBAB**, **SNAKE**)
+**(XXX)** is equivalent to **.XXX** (extension), 
+**{YYY}** is equivalent to global config variable **YYY** (defined in `config/generator`)
+**[ZZZ]** is equivalent to model form variable **ZZZ** (available values: **PLURAL_UPPER**, **PLURAL_LOWER**, **PLURAL_UC**, **PLURAL_STUDLY**, **PLURAL_CAMEL**, **PLURAL_KEBAB**, **PLURAL_SNAKE**, **UPPER**, **LOWER**, **UC**, **STUDLY**, **CAMEL**, **KEBAB**, **SNAKE**)
 * You can also use model form variables and global config variables in templates

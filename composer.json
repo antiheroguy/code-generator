@@ -1,0 +1,34 @@
+{
+    "name": "thomasdeluck/code-generator",
+    "description": "Code generator for Laravel",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "generator"
+    ],
+    "authors": [
+        {
+            "name": "Pham Anh Duc",
+            "email": "vndhero@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0",
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThomasDeLuck\\CodeGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ThomasDeLuck\\CodeGenerator\\CodeGeneratorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

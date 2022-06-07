@@ -1,9 +1,9 @@
 <?php
 
-namespace ThomasDeLuck\CodeGenerator;
+namespace AVeryLongTips\CodeGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use ThomasDeLuck\CodeGenerator\Console\Commands\GenerateCode;
+use AVeryLongTips\CodeGenerator\Console\Commands\GenerateCode;
 
 class CodeGeneratorServiceProvider extends ServiceProvider
 {

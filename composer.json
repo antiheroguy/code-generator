@@ -1,5 +1,5 @@
 {
-    "name": "thomasdeluck/code-generator",
+    "name": "averylongtips/code-generator",
     "description": "Code generator for Laravel",
     "license": "MIT",
     "type": "library",
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ThomasDeLuck\\CodeGenerator\\": "src/"
+            "AVeryLongTips\\CodeGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ThomasDeLuck\\CodeGenerator\\CodeGeneratorServiceProvider"
+                "AVeryLongTips\\CodeGenerator\\CodeGeneratorServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace ThomasDeLuck\CodeGenerator\Services;
+namespace AVeryLongTips\CodeGenerator\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;

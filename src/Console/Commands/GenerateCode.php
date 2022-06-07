@@ -1,6 +1,6 @@
 <?php
 
-namespace ThomasDeLuck\CodeGenerator\Console\Commands;
+namespace AVeryLongTips\CodeGenerator\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

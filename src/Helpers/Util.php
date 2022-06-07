@@ -1,6 +1,6 @@
 <?php
 
-namespace ThomasDeLuck\CodeGenerator\Helpers;
+namespace AVeryLongTips\CodeGenerator\Helpers;
 
 class Util
 {

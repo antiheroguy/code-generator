@@ -1,6 +1,6 @@
 <?php
 
-namespace AVeryLongTips\CodeGenerator\Services;
+namespace AntiHeroGuy\CodeGenerator\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;

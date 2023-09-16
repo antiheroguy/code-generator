@@ -1,9 +1,9 @@
 <?php
 
-namespace AVeryLongTips\CodeGenerator;
+namespace AntiHeroGuy\CodeGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use AVeryLongTips\CodeGenerator\Console\Commands\GenerateCode;
+use AntiHeroGuy\CodeGenerator\Console\Commands\GenerateCode;
 
 class CodeGeneratorServiceProvider extends ServiceProvider
 {

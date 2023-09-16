@@ -3,7 +3,7 @@
 namespace App\Services;
 
 use App\Models\{{ $model['STUDLY'] }};
-use AVeryLongTips\CodeGenerator\Services\BaseService;
+use AntiHeroGuy\CodeGenerator\Services\BaseService;
 
 class {{ $model['STUDLY'] }}Service extends BaseService
 {

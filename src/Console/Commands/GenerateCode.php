@@ -1,6 +1,6 @@
 <?php
 
-namespace AVeryLongTips\CodeGenerator\Console\Commands;
+namespace AntiHeroGuy\CodeGenerator\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

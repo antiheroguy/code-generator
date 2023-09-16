@@ -1,5 +1,5 @@
 {
-    "name": "averylongtips/code-generator",
+    "name": "antiheroguy/code-generator",
     "description": "Code generator for Laravel",
     "license": "MIT",
     "type": "library",
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AVeryLongTips\\CodeGenerator\\": "src/"
+            "AntiHeroGuy\\CodeGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AVeryLongTips\\CodeGenerator\\CodeGeneratorServiceProvider"
+                "AntiHeroGuy\\CodeGenerator\\CodeGeneratorServiceProvider"
             ]
         }
     },

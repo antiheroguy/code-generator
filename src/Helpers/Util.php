@@ -1,6 +1,6 @@
 <?php
 
-namespace AVeryLongTips\CodeGenerator\Helpers;
+namespace AntiHeroGuy\CodeGenerator\Helpers;
 
 class Util
 {

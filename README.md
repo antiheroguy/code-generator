@@ -1,20 +1,29 @@
-[![Latest Stable Version](http://poser.pugx.org/antiheroguy/code-generator/v)](https://packagist.org/packages/antiheroguy/code-generator)
-[![Total Downloads](http://poser.pugx.org/antiheroguy/code-generator/downloads)](https://packagist.org/packages/antiheroguy/code-generator)
-[![Latest Unstable Version](http://poser.pugx.org/antiheroguy/code-generator/v/unstable)](https://packagist.org/packages/antiheroguy/code-generator)
-[![License](http://poser.pugx.org/antiheroguy/code-generator/license)](https://packagist.org/packages/antiheroguy/code-generator)
-[![PHP Version Require](http://poser.pugx.org/antiheroguy/code-generator/require/php)](https://packagist.org/packages/antiheroguy/code-generator)
+![Packagist Version](https://img.shields.io/packagist/v/antiheroguy/code-generator)
 
 # Code Generator for Laravel
 Using this package to generate controller, migration, model, route, request, resource for your Laravel application
 
 ## Installation
-```composer require antiheroguy/code-generator --dev```
+```shell
+composer require antiheroguy/code-generator --dev
+```
 
 ## Usage
-* Run `php artisan generate:code {YOUR_MODEL_NAME} --field={FIELD_NAME}:{FIELD_TYPE}`
-* Example: `php artisan generate:code product --field=name:string`
+```shell
+php artisan generate:code YOUR_MODEL_NAME --field "FIELD_NAME:FIELD_TYPE"
+```
+
+### Example
+```shell
+php artisan generate:code product --field "name:string"
+```
+
+### Custom your own templates 
+```shell
+php artisan vendor:publish --tag=code-generator
+```
+
 * Available field types: **smallint**, **bigint**, **datetimetz**, **blob**, **integer**, **boolean**, **date**, **time**, **datetime**, **text**, **decimal**, **float**, **object**, **array**, **simple_array**, **json_array**, **guid**
-* You can custom your own templates by running `php artisan vendor:publish --tag=code-generator`
 * You can also use our `BaseService` by extending `AntiHeroGuy\CodeGenerator\Services\BaseService` class or create your own
 * List of variables used in filename: 
   **(XXX)** is equivalent to **.XXX** (extension)
